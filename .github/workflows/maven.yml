@@ -31,9 +31,9 @@ jobs:
       run: mvn clean install
 
     - name: Build & push Docker image
-      uses: senoramarillo/spring-boot-github-actions-demo
+      uses: mr-smithers-excellent/docker-build-push@v6
       with:
-          image: repo/image
+          image: senoramarillo/spring-boot-github-actions-demo
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
