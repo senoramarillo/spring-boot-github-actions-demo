@@ -1,1 +1,1 @@
-# spring-boot-github-actions-demo
+# Practice with GitHub Actions
